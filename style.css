@@ -1,0 +1,424 @@
+/* Start Reset */
+    body{
+        background-color: #EFF5F5;
+        margin: 0;
+    }
+    h2{
+        font-size: 80px;
+        text-align: center;
+        font-family: 'Belanosima', sans-serif;
+        color: #181823;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+    }
+    h3{
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Belanosima', sans-serif;
+        color: #181823;
+    }
+    label{
+        font-size: 25px;
+        color: #181823;
+        font-family: 'Belanosima', sans-serif;
+        width: 400;
+      }
+    form{
+        max-width:450px;
+        margin:50px auto;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav{
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: #181823;
+        font-size: large;
+        font-weight: bold;
+        text-align: center;
+        margin: 2rem;
+        font-family: 'Belanosima', sans-serif;
+    }
+    li{
+        padding: 10px;
+    }
+    header{
+        position: sticky;
+        top: 0;
+    }
+/* End Reset */
+
+/* Start Menu */
+li:hover{
+    background-color: #FC7300;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+nav{
+    background-color: #eff5f5d7;
+    height: 50px;
+    
+}
+
+.quienes-somos,
+.porque,
+.propuesta,
+.noticias{
+    padding-top: 0.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* End Menu */
+
+
+
+
+/* Start Main */
+    .banner{
+        width: 100%;
+        height: 50vh;
+        background-image: url(./assets/jpg/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 70px;
+        color: #EFF5F5;
+        text-shadow: 1px 1px 2px  #181823;
+        
+    }
+    
+    
+
+/* End Main */
+
+/* Start Quienes Somos */ 
+.somos2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 8%;
+
+    }
+
+   
+    .somos1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+
+/* End Quienes Somos */
+/* Start Porque */
+.porque2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8%;
+
+}
+
+
+.porque1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* End Porque */
+
+/* Start Propuesta */
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 200px;
+        height: 300px;
+        box-shadow: 1px 1px 1px 1px ;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        font-weight: bold;
+        
+    }
+    .card>img{
+        max-width: 200px;
+        max-height: 100px;
+    }
+    
+
+/* End Propuesta */
+
+/* Start Ultimas Noticias */
+    .articulos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        width: 70%;
+        margin: 0 auto;
+    }
+    article p{
+        width: 50ch;
+    }
+
+    
+   
+
+
+/* End Ultimas Noticias */
+
+/* Start Form */
+.formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.f-input::placeholder {
+    color:#181823;
+    opacity:0.9;
+  }
+  
+  .f-input {
+    background-color: transparent;
+    border:2px solid #1F8A70;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    color:#181823;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 22px;
+    text-align:left;
+  }
+  
+  .f-input:focus { 
+    border:2px solid #181823; }
+  
+  .form-btn {
+    max-width:450px;
+     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#1F8A70;
+    border-radius:10px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+  text-align:center;
+    transition: all 0.3s;
+    font-weight:600; 
+  }
+  .form-btn:hover {
+    color: #FC7300;
+   background:#00425A; 
+  }
+
+
+/* End Form */
+
+
+
+
+/* Start Footer */
+    footer{
+        margin-top: 20px;
+        height: 20vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-top: 1px solid black;
+    }
+    .etiquetas-redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        height: 50%;
+        justify-content: center;
+    }
+       .logo-redes{
+        width: 30px;
+        margin-right: 1rem;
+       }
+  
+    .instituto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    
+   .etiquetas-redes a:hover{
+    color: #FC7300;
+   }
+
+
+
+/* End Footer */
+
+/* Start Responsive */
+    
+
+
+    /* Start 768px */
+    @media screen and (max-width:1000px) and (min-width:500px)  {
+        .banner h1{
+            font-size: 50px;
+        }
+        
+        .somos2,.porque2{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+    
+        }
+    
+        .somos2 p,.porque2 p{
+            width: 50ch;
+        }
+        .quienes-somos{
+            width: 100vw;
+
+        }
+        .cards{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        
+            
+            
+        }
+        .quienes-somos,
+        .porque,
+        .propuesta,
+        .noticias{
+            padding-top: 0.5rem;
+            padding-left: 0;
+            padding-right: 0;
+            }
+
+        .card{
+            margin-top: 3rem;
+        }
+        .articulos{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+        article p{
+            width: 50ch;
+        }
+        footer{
+            margin-top: 20px;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            border-top: 1px solid black;
+        }
+       
+    }
+    /* End 768px */
+
+    /* Start 320px */
+    @media screen and (max-width:320px) {
+        .banner h1{
+            font-size: 40px;
+        }
+        .banner{
+            width: 100%;
+            height: 30vh;
+        }
+        .somos2,.porque2{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 1%;
+    
+        }
+        .somos2 p,.porque2 p{
+            width: 25ch;
+        }
+        .somos2 img,
+        .porque2 img{
+            width: 90%;
+            object-fit: cover;
+        }
+        .quienes-somos,
+        .porque,
+        .propuesta,
+        .noticias{
+            padding-top: 0.5rem;
+            padding-left: 0;
+            padding-right: 0;
+            }
+
+        
+        .articulos{
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            width: 70%;
+            margin: 0 auto;
+        }
+        article p{
+            width: 25ch;
+        }
+        h2{
+            font-size: 50px;
+        }
+        footer{
+            margin-top: 20px;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            border-top: 1px solid black;
+        }
+        .mapa iframe,
+        .mapa,
+        .gmap_canvas{
+            width: 320px;
+        }
+        .gmap_canvas{
+            width: 320px !important;
+        }
+        footer div{
+            width: 100vw;
+        }
+        .cards{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        
+            
+            
+        }
+        .card{
+            margin-top: 3rem;
+        }
+    }
+    
+    /* End 320px */
+
+
+/* End Responsive */
