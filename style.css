@@ -1,4 +1,6 @@
 /* Start Reset */
+    
+    
     body{
         background-color: #EFF5F5;
         margin: 0;
@@ -51,7 +53,9 @@
     }
     header{
         position: sticky;
+        display: flex;
         top: 0;
+        padding: 10px;
     }
 /* End Reset */
 
@@ -76,7 +80,9 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
-
+.abrir-menu{
+    display: none;
+}
 
 /* End Menu */
 
